@@ -1,4 +1,4 @@
-i = 0
-while i<3:
-  print 'I am Zack',i
-  i = i + 1
+#!/bin/bash
+for ((i=0;i<4;i++)); do
+echo I am $*Zack $i
+done
